@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: white;
+    color:black;
+}
+
+canvas {
+    animation-name: canvas_effect;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_effect {
+    from {box-shadow: 10px 10px 200px rgb(255, 180, 41)}
+    to {box-shadow:10px 10px 2000px rgb(0, 183, 255);}
+}
